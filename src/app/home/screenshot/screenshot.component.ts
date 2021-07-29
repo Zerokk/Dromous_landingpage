@@ -15,38 +15,32 @@ constructor() { }
 			image: 'assets/images/app/1.PNG',
 		},
 		{
-			image: 'assets/images/app/2.jpg',
+			image: 'assets/images/app/2.PNG',
 		},
 		{
-			image: 'assets/images/app/3.jpg',
+			image: 'assets/images/app/3.PNG',
 		},
 		{
-			image: 'assets/images/app/4.jpg',
+			image: 'assets/images/app/4.PNG',
 		},
 		{
-			image: 'assets/images/app/5.jpg',
+			image: 'assets/images/app/5.PNG',
 		},
 		{
-			image: 'assets/images/app/6.jpg',
+			image: 'assets/images/app/6.PNG',
 		},
 		{
-			image: 'assets/images/app/7.jpg',
+			image: 'assets/images/app/7.PNG',
 		},
 		{
-			image: 'assets/images/app/8.jpg',
+			image: 'assets/images/app/8.PNG',
 		},
 		{
-			image: 'assets/images/app/9.jpg',
+			image: 'assets/images/app/9.PNG',
 		},
 		{
-			image: 'assets/images/app/10.jpg',
+			image: 'assets/images/app/10.PNG',
 		},
-		{
-			image: 'assets/images/app/11.jpg',
-		},
-		{
-			image: 'assets/images/app/12.jpg',
-		}
 	];
 
 	// Carousel Options
