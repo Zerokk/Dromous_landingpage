@@ -24,7 +24,7 @@ import { EmailTemplateComponent } from './email-template/email-template.componen
     SharedModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    NgbModule,
   ],
   declarations: [
     SignInComponent,
@@ -36,7 +36,7 @@ import { EmailTemplateComponent } from './email-template/email-template.componen
     FaqComponent,
     DownloadComponent,
     ComingsoonComponent,
-    EmailTemplateComponent
+    EmailTemplateComponent,
    ]
 })
 export class PagesModule { }

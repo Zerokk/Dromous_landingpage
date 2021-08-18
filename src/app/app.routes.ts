@@ -1,7 +1,6 @@
-import { Routes, RouterModule } from '@angular/router';
-import { DemoComponent } from './demo/demo.component';
+import { Routes } from '@angular/router';
 import { BlogComponent } from './blog/blog.component';
-
+import { TermsOfServiceComponent } from './home/termsofuse/terms-of-service.component';
 export const rootRouterConfig: Routes = [
   {
     path: '',
@@ -21,11 +20,6 @@ export const rootRouterConfig: Routes = [
     component: BlogComponent,
     loadChildren:  () => import('./blog/blog.module').then(m => m.BlogModule)
   },
-  /*
-  {
-    path: 'pages',
-    loadChildren:  () => import('./pages/pages.module').then(m => m.PagesModule)
-  },*/
   {
     path: '**',
     redirectTo: 'home/one'

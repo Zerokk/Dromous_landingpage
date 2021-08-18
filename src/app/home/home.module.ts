@@ -21,6 +21,7 @@ import { PriceComponent } from './price/price.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { TermsOfServiceComponent } from './termsofuse/terms-of-service.component';
 
 @NgModule({
   imports: [
@@ -47,7 +48,8 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     PriceComponent,
     TestimonialComponent,
     ContactUsComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    TermsOfServiceComponent
   ],
   providers: []
 })
